@@ -1,0 +1,375 @@
+@import url("https://use.typekit.net/cvm3gxs.css");
+
+html
+{ height: auto;
+min-height: 100%;}
+
+
+body {
+margin: 0;
+background: #f8f8f8 url('img/dot.png') repeat top left;
+font-family: "graveur-variable", sans-serif;
+font-variation-settings: "opsz" 10, "wght" 400;
+padding-bottom: 2em; 
+}
+
+
+a { transform: none;
+color: #4E659D;
+text-decoration: none; }
+
+.main-image { 
+   width: 100%;
+    max-width: 640px;
+    margin: 2em auto 0; 
+    padding: 0 1em;
+    
+}
+
+
+
+
+
+p { display: block; 
+margin: 2em 0;}
+
+.booth {
+    width: 80%;
+    display: block;
+    margin: 2em auto 3em;
+    max-width: 100%; 
+    height: auto;
+}
+
+.booth2 {
+    width: 70%;
+    display: block;
+    margin: 2em auto 3em;
+    max-width: 100%; 
+    height: auto;
+}
+
+
+.vase {
+    width: 13%;
+    display: block;
+    margin: 2em auto 3em;
+    max-width: 100%; 
+    height: auto;
+}
+
+
+.stone {
+    width: 20%;
+    display: block;
+     margin: 2em 0 0;
+    max-width: 20%; 
+    height: auto;
+}
+
+
+
+
+
+
+.text {
+    width: 100%;
+    margin-top: 1em; 
+    padding: 0;
+    text-align: justify;
+    font-size: 1.3em; 
+    line-height: 1.5em;
+
+}
+.text-big {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2em; 
+    line-height: 2em;
+    color: #428EFD;
+
+}
+
+.text-big-about {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2em; 
+    line-height: 2em;
+    color: #428EFD;
+
+}
+
+
+.text-bottom {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em; 
+    color: #428EFD;
+    
+
+}
+
+.text-bottom-about {
+    width: 100%;
+    margin: 0 0 3em;
+    padding: 0;
+    text-align: left;
+    font-size: 1.5em; 
+    color: #428EFD;
+    line-height: 1em; 
+    
+
+}
+
+.text-bottom-pamph {
+    width: 100%;
+    margin: 3em 0 3em;
+    padding: 0;
+    text-align: left;
+    font-size: 1.5em; 
+    color: #428EFD;
+    line-height: 1em; 
+    
+
+}
+
+
+
+.pamph-container { 
+   width: 100%;
+    max-width: 740px;
+    margin: 0 auto; 
+    padding: 0 1em;    
+    box-sizing: border-box;
+
+}
+
+
+.pamph {
+    width: 100%;
+    margin-top: 1em; 
+    padding: 0;
+    text-align: justify;
+    font-size: 1.5em; 
+    line-height: 1.5em;
+
+}
+
+.pamph-title
+{
+    width: 100%;
+    margin: 40px 0 20px 0;
+    padding: 0;
+    text-align: left;
+    font-size: 4em; 
+    font-style: italic;
+    line-height: 2em;
+    color: #428EFD;
+
+}
+
+
+
+ .project-images {
+      display: none;
+      margin-top: 10px;
+      flex-wrap: wrap;
+      gap: 10px; 
+      justify-content: center;
+    }
+
+    .project-title {
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 1.5em; 
+      margin: 10px 0 20px 0;
+    }
+
+
+    .project-description
+    { font-size: 0.8em;
+    text-transform: capitalize;
+    text-align: center;
+}
+ 
+.abc-img {
+
+    width: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .abc-img {
+    width: 45%;  
+
+  }
+}
+
+@media (max-width: 500px) {
+  .abc-img {
+    width: 80%;
+    align-self: center;
+        margin: 30px 0 15px  0;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-title {
+    text-align: center;
+  }
+
+  .project-images {
+    justify-content: center;
+  }
+
+.pamph-title {
+    text-align: center;
+    margin: 30px 0 15px 0;
+    font-size: 3em; /* optional: slightly smaller on phones */
+  }
+
+}
+
+
+
+    .menu { 
+        position: fixed;
+        top: 1.5em;
+        left: 1.5em;
+        z-index: 1000;
+    }
+
+.menu-links {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    word-spacing: 0.3rem;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    text-align: left;
+
+    font-size: 1em; 
+    line-height: 1.2em;
+    color: #428EFD;
+
+}
+
+.menu-links li {
+    margin: 0.2em 0;        
+}
+
+
+.menu-links a {
+    text-decoration: none;
+    font-style: italic;
+    color: #428EFD;
+}
+
+.menu-links a:hover {
+    font-style: italic;
+   
+     text-decoration: underline dashed; 
+    
+}
+
+.menu-links li.special a, .menu-links li.special a:hover 
+{
+  font-variation-settings: "wght" 800, "opsz" 10;
+  text-decoration: none; 
+}
+
+
+.arrow {
+    
+    text-align: left;
+    font-size: 2.5em;
+    color: #428EFD;
+    padding-left: 0.39em;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .main-image, .pamph-containter {
+        width: 100%;
+        max-width: 100%;
+        margin: 1.5em auto;
+        padding-left: 0;
+        padding-right: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+
+    .booth,
+    .booth2 {
+        align-self: center;
+        width: 90%;
+        margin: 1em auto 2em;
+    }
+
+    .text {
+        width: 90%;
+        text-align: justify;
+        font-size: 1.1em; 
+        margin: 1em auto;
+        line-height: 1.4em;
+    }
+
+    .text-big-about {
+    font-size: 1.5em;
+    line-height: 1.6em;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    margin: 1em 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        top: 1em;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 4em;
+        
+    }
+
+    .menu-links {
+        flex-direction: row;
+        gap: 0.75em;
+        font-size: 0.9em;
+
+    }
+
+.menu-links a {
+        padding: 0.25em 0.4em;
+        white-space: nowrap;
+        padding: 0.25em 0.4em;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 4em;
+    }
+}
