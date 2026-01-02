@@ -106,7 +106,7 @@ margin: 2em 0;}
 .text-pamph
 { text-align: left;
     font-size: 1.5em; 
-
+     margin: 0 0 45px;
 }
 
 
@@ -170,12 +170,11 @@ margin: 2em 0;}
 .pamph-title
 {
     width: 100%;
-    margin: 40px 0 20px 0;
+    margin: 40px 0 5px 0;
     padding: 0;
     text-align: left;
-    font-size: 4em; 
+    font-size: 6em; 
     font-style: italic;
-    line-height: 2em;
     color: #428EFD;
 
 }
@@ -192,7 +191,6 @@ margin: 2em 0;}
 
     .project-title {
       cursor: pointer;
-      font-weight: bold;
       text-decoration: none;
       font-size: 1.5em; 
       margin: 10px 0 50px 0;
@@ -203,9 +201,10 @@ margin: 2em 0;}
 
 
     .project-header {
-      font-weight: bold;
-      text-decoration: underline;
+      text-decoration: none;
       font-size: 1.5em; 
+font-variation-settings: "opsz" 10, "wght" 700;
+
       margin: 0;
 
     }
