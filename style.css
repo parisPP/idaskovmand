@@ -103,6 +103,12 @@ margin: 2em 0;}
 
 }
 
+.text-pamph
+{ text-align: left;
+    font-size: 1.5em; 
+
+}
+
 
 .text-bottom {
     width: 100%;
@@ -187,14 +193,25 @@ margin: 2em 0;}
     .project-title {
       cursor: pointer;
       font-weight: bold;
-      text-decoration: underline;
+      text-decoration: none;
       font-size: 1.5em; 
-      margin: 10px 0 20px 0;
+      margin: 10px 0 50px 0;
+    color: #428EFD;
+
     }
 
 
+
+    .project-header {
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 1.5em; 
+      margin: 0;
+
+    }
+
     .project-description
-    { font-size: 0.8em;
+    { font-size: 1em;
     text-transform: capitalize;
     text-align: center;
 }
