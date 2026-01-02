@@ -356,17 +356,17 @@ margin: 2em 0;}
 
     .menu-links {
         flex-direction: row;
-        flex-wrap: wrap;
-        gap: 0.5em;
+        flex-wrap: nowrap;
+        gap: 0.3em;
         font-size: 0.9em;
         justify-content: center;
 
     }
 
     .menu-links li {
-        flex: 1 1 45%; /* roughly 2 items per row */
+        flex: none; 
         text-align: center;
-        margin: 0.25em 0; /* adjust vertical spacing */
+        margin: 0;
     }
 
 .menu-links a {
